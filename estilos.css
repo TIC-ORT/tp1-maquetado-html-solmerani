@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+}
+
+.header {
+    margin-top: 50px;
+    height: 30vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display:flex;
+    background-color:#ffd479;
+    padding:2rem;
+    gap:2rem;
+
+}
+
+.imagen {
+    width:100px;
+    height:100px;
+    background-color: #ffc158;
+}
+
+.header-text h1 {
+    background-color: #ffb64d;
+    height:20x;
+    width:150px;
+    margin-bottom:10px;
+
+}
+
+.header-text p {
+    background-color: white;
+    height: 10px;
+    margin: 5px 0;
+    width: 90%;
+  }
