@@ -57,7 +57,7 @@ body {
     height: 50px;
     display: block;
   }
-  
+
 .cuadrado.azul {
     background-color:#c1edf4;
 }
@@ -79,3 +79,31 @@ body {
     background-color: #ffc158;
 }
 
+.footer {
+    background-color: #eaeaea;
+    height: 20vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display:flex;
+    padding:2rem;
+    gap:2rem;
+    margin-top: 50px;
+}
+
+.footer-text  {
+    width: 30%;
+    height: 50px;
+    background-color: #d3d3d3;
+    position: relative;
+    margin-bottom:10px;
+
+}
+.footer-text::before,
+.footer-text::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 10px;
+  margin: 5px auto;
+  width: 80%;
+}
