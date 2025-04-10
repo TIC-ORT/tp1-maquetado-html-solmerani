@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 
 .header {
@@ -11,28 +11,37 @@ body {
     background-color:#ffd479;
     padding:2rem;
     gap:2rem;
+    align-items: center;
+    justify-content: flex-start;
 
 }
 
 .imagen {
-    width:100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     background-color: #ffc158;
+    margin-left: 7rem;
 }
 
 .header-text h1 {
     background-color: #ffb64d;
-    height:20x;
-    width:150px;
-    margin-bottom:10px;
+    height:20px;
+    width:450px;
+    margin-bottom:15px;
+    margin-left: 4rem;
 
 }
 
 .header-text p {
+    margin-left:10rem;
     background-color: white;
     height: 10px;
-    margin: 5px 0;
-    width: 90%;
+    margin: 15px ;
+    width: 150%;
+    margin-left:4rem;
+  }
+.main {
+    background-color: white;
   }
 
 .grid {
@@ -58,14 +67,14 @@ body {
     display: block;
   }
 
-.cuadrado.azul {
+.cuadrado.azul{
     background-color:#c1edf4;
 }
 .cuadrado.azul::before {
     background-color: #9bdde6;
 }
 
-.cuadrado.rojo {
+.cuadrado.rojo{
     background-color: #fda187;
 }
 .cuadrado.rojo::before {
